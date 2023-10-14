@@ -1,3 +1,56 @@
 body {
   background-color: seashell;
+  background-image: url(images/corey-agopian-5y4ljzRrDFA-unsplash.jpg);
+  background-size: cover;
+}
+
+img {
+  display: flex;
+  border: 5px solid lightblue;
+  border-radius: 5px;
+  max-width: 400px;
+  max-height: 400px;
+  flex-direction: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+img:hover {
+  background:url(images/E4u4T0aVEAgVIp2.jpg) no-repeat 0 0;
+}
+.gw {
+background-color: yellow;
+color: lightblue;
+text-align: center;
+font-family: YoungSerif-Regular;
+border: lightblue solid 3px;
+border-radius: 15px;
+margin: 5px;
+text-decoration: none;
+font-size: 25px;
+}
+
+.gw:hover {
+  background-color: purple;
+  color: lightpink;
+}
+
+.name {
+  font-size: 80px;
+  margin: 10px auto;
+  text-align: center;
+  color: lightblue;
+  font-style: italic;
+  font-family: YoungSerif-Regular;
+  -webkit-text-stroke: 1px yellow;
+}
+
+.name:hover {
+background-color: purple;
+background-image: url(images/39c8c4ad4a1dcab4532335fba890eafad3-tyler-the-creator-album-review.rhorizontal.w700.webp);
+background-size: contain;
+}
+
+@font-face {
+  font-family: YoungSerif-Regular;
+  src: url(fonts/YoungSerif-Regular.ttf);
 }
